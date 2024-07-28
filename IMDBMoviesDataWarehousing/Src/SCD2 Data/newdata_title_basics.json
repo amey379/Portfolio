@@ -1,0 +1,127 @@
+{ 
+
+	"data": [
+		{
+			"tconst" : "tt0120338",
+			"titleType" : "movie",
+			"primaryTitle" : "Titanic (1997)",
+			"originalTitle" : "Titanic",
+			"isAdult" : 0,
+			"startYear" : "1997",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "194",
+			"genres" : "Drama,Romance"
+			
+		},
+		{
+			"tconst" : "tt0499549",
+			"titleType" : "movie",
+			"primaryTitle" : "Avatar (2009)",
+			"originalTitle" : "Avatar",
+			"isAdult" : 0,
+			"startYear" : "2009",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "162",
+			"genres" : "Action,Adventure,Fantasy"
+			
+		},
+		{
+			"tconst" : "tt0848228",
+			"titleType" : "movie",
+			"primaryTitle" : "The Avengers (2012)",
+			"originalTitle" : "The Avengers",
+			"isAdult" : 0,
+			"startYear" : "2012",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "143",
+			"genres" : "Action,Adventure,Sci-Fi"
+			
+		},
+		{
+			"tconst" : "tt10872600",
+			"titleType" : "movie",
+			"primaryTitle" : "Spider-Man: No Way Home (2021)",
+			"originalTitle" : "Spider-Man: No Way Home",
+			"isAdult" : 0,
+			"startYear" : "2021",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "148",
+			"genres" : "Action,Adventure,Fantasy"
+			
+		},
+		{
+			"tconst" : "tt1825683",
+			"titleType" : "movie",
+			"primaryTitle" : "Black Panther (2018)",
+			"originalTitle" : "Black Panther",
+			"isAdult" : 0,
+			"startYear" : "2018",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "134",
+			"genres" : "Action,Adventure,Sci-Fi"
+			
+		},
+		{
+			"tconst" : "tt2395427",
+			"titleType" : "movie",
+			"primaryTitle" : "Avengers: Age of Ultron (2015)",
+			"originalTitle" : "Avengers: Age of Ultron",
+			"isAdult" : 0,
+			"startYear" : "2015",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "141",
+			"genres" : "Action,Adventure,Sci-Fi"
+			
+		},
+		{
+			"tconst" : "tt2488496",
+			"titleType" : "movie",
+			"primaryTitle" : "Star Wars: Episode VII - The Force Awakens (2015)",
+			"originalTitle" : "Star Wars: Episode VII - The Force Awakens",
+			"isAdult" : 0,
+			"startYear" : "2015",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "138",
+			"genres" : "Action,Adventure,Sci-Fi"
+			
+		},
+		{
+			"tconst" : "tt4154756",
+			"titleType" : "movie",
+			"primaryTitle" : "Avengers: Infinity War (2018)",
+			"originalTitle" : "Avengers: Infinity War",
+			"isAdult" : 0,
+			"startYear" : "2018",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "149",
+			"genres" : "Action,Adventure,Sci-Fi"
+			
+		},
+		{
+			"tconst" : "tt4154796",
+			"titleType" : "movie",
+			"primaryTitle" : "Avengers: Endgame (2019)",
+			"originalTitle" : "Avengers: Endgame",
+			"isAdult" : 0,
+			"startYear" : "2019",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "181",
+			"genres" : "Action,Adventure,Drama"
+			
+		},
+        {
+			"tconst" : "tt0120338",
+			"titleType" : "movie",
+			"primaryTitle" : "Titanic (1997) remake",
+			"originalTitle" : "Titanic",
+			"isAdult" : 0,
+			"startYear" : "1997",
+			"endYear" : "\\N",
+			"runtimeMinutes" : "194",
+			"genres" : "Drama,Romance"
+			
+		}
+	]
+
+
+}

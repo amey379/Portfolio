@@ -1,0 +1,61 @@
+[
+	{
+		"nconst" : "nm0000375",
+		"primaryName" : "Robert Downey Jr. (aka IRON MAN)",
+		"birthYear" : "1965",
+		"deathYear" : "\\N",
+		"primaryProfession" : "actor,producer,soundtrack",
+		"knownForTitles" : "tt0371746,tt4154796,tt1300854,tt0988045"
+	},
+	{
+		"nconst" : "nm0262635",
+		"primaryName" : "Chris Evans (aka Captain America)",
+		"birthYear" : "1981",
+		"deathYear" : "\\N",
+		"primaryProfession" : "actor,producer,soundtrack",
+		"knownForTitles" : "tt2395427,tt0458339,tt3498820,tt0848228"
+	},
+	{
+		"nconst" : "nm0749263",
+		"primaryName" : "Mark Ruffalo (aka Hulk)",
+		"birthYear" : "1967",
+		"deathYear" : "\\N",
+		"primaryProfession" : "actor,producer,soundtrack",
+		"knownForTitles" : "tt0848228,tt1100089,tt1895587,tt0842926"
+	},
+	{
+		"nconst" : "nm1165110",
+		"primaryName" : "Chris Hemsworth (aka Thor)",
+		"birthYear" : "1983",
+		"deathYear" : "\\N",
+		"primaryProfession" : "actor,producer,soundtrack",
+		"knownForTitles" : "tt0848228,tt0800369,tt1735898,tt3501632"
+	},
+	{
+		"nconst" : "nm0424060",
+		"primaryName" : "Scarlett Johansson (aka Black Widow)",
+		"birthYear" : "1984",
+		"deathYear" : "\\N",
+		"primaryProfession" : "actress,soundtrack,producer",
+		"knownForTitles" : "tt1798709,tt0335266,tt0848228,tt0162346",
+		"DI_CreateDatetime" : "2023-11-19 15:20:37",
+		"DI_JobId" : "sRM5Lk",
+		"DI_JobName" : "stg_name_basics"
+	},
+	{
+		"nconst" : "nm1212722",
+		"primaryName" : "Benedict Cumberbatch (aka Dr. Strange)",
+		"birthYear" : "1976",
+		"deathYear" : "\\N",
+		"primaryProfession" : "actor,producer,soundtrack",
+		"knownForTitles" : "tt1408101,tt2084970,tt1211837,tt1322269"
+	},
+	{
+		"nconst" : "nm4043618",
+		"primaryName" : "Tom Holland (aka Spiderman)",
+		"birthYear" : "1996",
+		"deathYear" : "\\N",
+		"primaryProfession" : "actor,director,producer",
+		"knownForTitles" : "tt1649419,tt6320628,tt2250912,tt3498820"
+	}
+]
