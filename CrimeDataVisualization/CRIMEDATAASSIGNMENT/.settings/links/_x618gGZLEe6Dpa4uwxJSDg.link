@@ -1,0 +1,45 @@
+{
+  "itemId" : "_x618gGZLEe6Dpa4uwxJSDg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_aiG_UGX6Ee6Dpa4uwxJSDg",
+    "parameterList" : [ {
+      "id" : "_ai3NQWX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_File"
+    }, {
+      "id" : "_ai3NQmX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_Header"
+    }, {
+      "id" : "_ai3NQ2X6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_Encoding"
+    }, {
+      "id" : "_ai3NRGX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_RowSeparator"
+    }, {
+      "id" : "_ai3NRWX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_FieldSeparator"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_kM9eMGWxEe6Dpa4uwxJSDg",
+    "parameterList" : [ {
+      "id" : "_kNRANWWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Port"
+    }, {
+      "id" : "_kNRAMmWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_AdditionalParams"
+    }, {
+      "id" : "_kNRANGWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Server"
+    }, {
+      "id" : "_kNRAM2WxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Login"
+    }, {
+      "id" : "_kNRANmWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Database"
+    }, {
+      "id" : "_kNRAMWWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Password"
+    } ]
+  } ]
+}

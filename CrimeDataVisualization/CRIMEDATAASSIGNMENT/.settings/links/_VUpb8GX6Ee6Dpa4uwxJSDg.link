@@ -1,0 +1,23 @@
+{
+  "itemId" : "_VUpb8GX6Ee6Dpa4uwxJSDg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_aiG_UGX6Ee6Dpa4uwxJSDg",
+    "parameterList" : [ {
+      "id" : "_ai3NQWX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_File"
+    }, {
+      "id" : "_ai3NQmX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_Header"
+    }, {
+      "id" : "_ai3NQ2X6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_Encoding"
+    }, {
+      "id" : "_ai3NRGX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_RowSeparator"
+    }, {
+      "id" : "_ai3NRWX6Ee6Dpa4uwxJSDg",
+      "name" : "CrimeDataSrc_FieldSeparator"
+    } ]
+  } ]
+}

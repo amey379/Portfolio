@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Crime_Data_from_2020_to_Present_4102023.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Date Rptd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="DATE OCC" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="TIME OCC" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA NAME" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Rpt Dist No" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Part 1-2" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Mocodes" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Age" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Sex" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict Descent" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon Used Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 1" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 2" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 3" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm Cd 4" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Cross Street" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LAT" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LON" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="330" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amey8\AppData\Local\Temp\Engine_28352_76920d06658b454b8af2e0ac84f3be33_\Engine_28352_84e690dac5d3834a8536b3edb044e4c6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="258" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="258" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">DR_NO=True,Date Rptd=True,DATE OCC=True,TIME OCC=True,AREA=True,AREA NAME=True,Rpt Dist No=True,Part 1-2=True,Crm Cd=True,Crm Cd Desc=True,Mocodes=True,Vict Age=True,Vict Sex=True,Vict Descent=True,Premis Cd=True,Premis Desc=True,Weapon Used Cd=True,Weapon Desc=True,Status=True,Status Desc=True,Crm Cd 1=True,Crm Cd 2=True,Crm Cd 3=True,Crm Cd 4=True,LOCATION=True,Cross Street=True,LAT=True,LON=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amey8\AppData\Local\Temp\Engine_28352_76920d06658b454b8af2e0ac84f3be33_\Engine_28352_fed263309ad9e64f839f67765597b7f4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amey8\AppData\Local\Temp\Engine_28352_76920d06658b454b8af2e0ac84f3be33_\Engine_28352_acef19059619434fa3f2ee9b24a43f2f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>TB</ViewMode>
+            <ViewSize value="40" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View2>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amey8\AppData\Local\Temp\Engine_28352_76920d06658b454b8af2e0ac84f3be33_\Engine_28352_582a762cd6f3f44db58a31ab9d0f1aa5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="246" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="DR_NO" />
+            <Field name="Date Rptd" />
+            <Field name="DATE OCC" />
+            <Field name="TIME OCC" />
+            <Field name="AREA" />
+            <Field name="AREA NAME" />
+            <Field name="Rpt Dist No" />
+            <Field name="Part 1-2" />
+            <Field name="Crm Cd" />
+            <Field name="Crm Cd Desc" />
+            <Field name="Mocodes" />
+            <Field name="Vict Age" />
+            <Field name="Vict Sex" />
+            <Field name="Vict Descent" />
+            <Field name="Premis Cd" />
+            <Field name="Premis Desc" />
+            <Field name="Weapon Used Cd" />
+            <Field name="Weapon Desc" />
+            <Field name="Status" />
+            <Field name="Status Desc" />
+            <Field name="Crm Cd 1" />
+            <Field name="Crm Cd 2" />
+            <Field name="Crm Cd 3" />
+            <Field name="Crm Cd 4" />
+            <Field name="LOCATION" />
+            <Field name="Cross Street" />
+            <Field name="LAT" />
+            <Field name="LON" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>IF Contains([_CurrentField_], " ") 
+THEN  ReplaceChar([_CurrentField_], " ", "_")
+ELSE [_CurrentField_] ENDIF</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Date_Rptd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="DATE_OCC" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="TIME_OCC" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA_NAME" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Rpt_Dist_No" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Part_1-2" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Mocodes" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict_Age" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict_Sex" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict_Descent" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis_Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon_Used_Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_1" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_2" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_3" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_4" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Cross_Street" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LAT" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LON" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="378" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="DR_NO" />
+            <Field name="Date_Rptd" />
+            <Field name="DATE_OCC" />
+            <Field name="TIME_OCC" />
+            <Field name="AREA" />
+            <Field name="AREA_NAME" />
+            <Field name="Rpt_Dist_No" />
+            <Field name="Part_1-2" />
+            <Field name="Crm_Cd" />
+            <Field name="Crm_Cd_Desc" />
+            <Field name="Mocodes" />
+            <Field name="Vict_Age" />
+            <Field name="Vict_Sex" />
+            <Field name="Vict_Descent" />
+            <Field name="Premis_Cd" />
+            <Field name="Premis_Desc" />
+            <Field name="Weapon_Used_Cd" />
+            <Field name="Weapon_Desc" />
+            <Field name="Status" />
+            <Field name="Status_Desc" />
+            <Field name="Crm_Cd_1" />
+            <Field name="Crm_Cd_2" />
+            <Field name="Crm_Cd_3" />
+            <Field name="Crm_Cd_4" />
+            <Field name="LOCATION" />
+            <Field name="Cross_Street" />
+            <Field name="LAT" />
+            <Field name="LON" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>IF Contains([_CurrentField_], "-") 
+THEN  ReplaceChar([_CurrentField_], "-", "_")
+ELSE [_CurrentField_] ENDIF</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DR_NO" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Date_Rptd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="DATE_OCC" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="TIME_OCC" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="AREA_NAME" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Rpt_Dist_No" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Part_1_2" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Mocodes" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict_Age" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict_Sex" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Vict_Descent" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis_Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Premis_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon_Used_Cd" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Weapon_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Status_Desc" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_1" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_2" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_3" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Crm_Cd_4" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="Cross_Street" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LAT" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+            <Field name="LON" size="254" source="File: C:\Users\amey8\Downloads\Crime_Data_from_2020_to_Present_4102023.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\amey8\AppData\Local\Temp\Engine_28352_76920d06658b454b8af2e0ac84f3be33_\Engine_28352_d8d5ba5e18c930449b83fbf53f338946~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="486" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">F:\DADABI\Assignment 2 part1\Crime_Data_from_2020_to_Present_4102023_cleaned.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>;</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Crime_Data_from_2020_to_Present_4102023_cleaned.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data_Profiling_Alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a8cc7ea0-806f-461c-bca6-4cb8b068933c" />
+      <Telemetry>
+        <PreviousWorkflowId value="0db8e038-07d8-40ca-b19b-0b427cd2de22" />
+        <OriginWorkflowId value="0db8e038-07d8-40ca-b19b-0b427cd2de22" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

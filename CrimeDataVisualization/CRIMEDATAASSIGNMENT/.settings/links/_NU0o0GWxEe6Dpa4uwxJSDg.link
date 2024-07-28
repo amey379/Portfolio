@@ -1,0 +1,26 @@
+{
+  "itemId" : "_NU0o0GWxEe6Dpa4uwxJSDg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kM9eMGWxEe6Dpa4uwxJSDg",
+    "parameterList" : [ {
+      "id" : "_kNRAMWWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Password"
+    }, {
+      "id" : "_kNRAMmWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_AdditionalParams"
+    }, {
+      "id" : "_kNRAM2WxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Login"
+    }, {
+      "id" : "_kNRANGWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Server"
+    }, {
+      "id" : "_kNRANWWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Port"
+    }, {
+      "id" : "_kNRANmWxEe6Dpa4uwxJSDg",
+      "name" : "crime_data_target_conn_Database"
+    } ]
+  } ]
+}
