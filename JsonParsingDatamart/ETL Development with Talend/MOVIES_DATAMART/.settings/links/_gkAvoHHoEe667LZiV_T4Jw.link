@@ -1,0 +1,180 @@
+{
+  "itemId" : "_gkAvoHHoEe667LZiV_T4Jw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__pqW0HHZEe6eWeMcXWqt2Q",
+    "parameterList" : [ {
+      "id" : "__p940XHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Login"
+    }, {
+      "id" : "__p940nHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Server"
+    }, {
+      "id" : "__p9403HZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_AdditionalParams"
+    }, {
+      "id" : "__p941HHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Port"
+    }, {
+      "id" : "__p941XHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Database"
+    }, {
+      "id" : "__p941nHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Password"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "parameterList" : [ {
+      "id" : "_H-KEMoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Server"
+    }, {
+      "id" : "_H-KENITAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Port"
+    }, {
+      "id" : "_H-KEMYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_AdditionalParams"
+    }, {
+      "id" : "_H-KENoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Login"
+    }, {
+      "id" : "_H-KENYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Database"
+    }, {
+      "id" : "_H-KEM4TAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Password"
+    } ]
+  }, {
+    "contextName" : "qa",
+    "repoId" : "__pqW0HHZEe6eWeMcXWqt2Q",
+    "parameterList" : [ {
+      "id" : "__p945nHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Login"
+    }, {
+      "id" : "__p9453HZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Server"
+    }, {
+      "id" : "__p946HHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_AdditionalParams"
+    }, {
+      "id" : "__p946XHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Port"
+    }, {
+      "id" : "__p946nHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Database"
+    }, {
+      "id" : "__p9463HZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Password"
+    } ]
+  }, {
+    "contextName" : "qa",
+    "repoId" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "parameterList" : [ {
+      "id" : "_H-KEMoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Server"
+    }, {
+      "id" : "_H-KENITAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Port"
+    }, {
+      "id" : "_H-KEMYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_AdditionalParams"
+    }, {
+      "id" : "_H-KENoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Login"
+    }, {
+      "id" : "_H-KENYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Database"
+    }, {
+      "id" : "_H-KEM4TAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Password"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "__pqW0HHZEe6eWeMcXWqt2Q",
+    "parameterList" : [ {
+      "id" : "__p9433HZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Login"
+    }, {
+      "id" : "__p944HHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Server"
+    }, {
+      "id" : "__p944XHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_AdditionalParams"
+    }, {
+      "id" : "__p944nHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Port"
+    }, {
+      "id" : "__p9443HZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Database"
+    }, {
+      "id" : "__p945HHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Password"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "parameterList" : [ {
+      "id" : "_H-KEMoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Server"
+    }, {
+      "id" : "_H-KENITAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Port"
+    }, {
+      "id" : "_H-KEMYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_AdditionalParams"
+    }, {
+      "id" : "_H-KENoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Login"
+    }, {
+      "id" : "_H-KENYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Database"
+    }, {
+      "id" : "_H-KEM4TAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Password"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "__pqW0HHZEe6eWeMcXWqt2Q",
+    "parameterList" : [ {
+      "id" : "__p942HHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Login"
+    }, {
+      "id" : "__p942XHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Server"
+    }, {
+      "id" : "__p942nHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_AdditionalParams"
+    }, {
+      "id" : "__p9423HZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Port"
+    }, {
+      "id" : "__p943HHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Database"
+    }, {
+      "id" : "__p943XHZEe6eWeMcXWqt2Q",
+      "name" : "seattlepetDBconnMySQL_Password"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "parameterList" : [ {
+      "id" : "_H-KEMoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Server"
+    }, {
+      "id" : "_H-KENITAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Port"
+    }, {
+      "id" : "_H-KEMYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_AdditionalParams"
+    }, {
+      "id" : "_H-KENoTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Login"
+    }, {
+      "id" : "_H-KENYTAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Database"
+    }, {
+      "id" : "_H-KEM4TAEe6kYdlKJWQMUQ",
+      "name" : "mysql_conn_Password"
+    } ]
+  } ]
+}

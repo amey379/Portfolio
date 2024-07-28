@@ -1,0 +1,552 @@
+[ {
+  "baseItem" : {
+    "id" : "_0IvVEIXUEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - actors",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_17ekYIXcEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_directors",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_movie_scd",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - movie_director_bridge",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_director",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_1lvvgIXdEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_category",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_movie_scd",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - movie_category_bridge",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_category",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_31sA8IOwEe6qxa4jBlczww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_directors",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5YlAcIT3Ee6kYdlKJWQMUQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_4-rygINyEe6qxa4jBlczww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_actor",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_category",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_director",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_writer",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_6abVkIXUEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - directors",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_8mARMIVkEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_9akrsIT2Ee6kYdlKJWQMUQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_EYNZ8IT8Ee6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_EYNZ8IT8Ee6kYdlKJWQMUQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_BbSTwIXWEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_BtFyQIXSEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_actors",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - movie_actor_bridge",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_actor",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_EutAwIXgEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - fct_movie",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - movie_director_bridge",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_FOE1YIaFEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_movie_dtl",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_FSQbYIWAEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_movie_dtl",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_GkPUkIVoEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_HhyzcIXgEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - fct_movie",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - movie_writer_bridge",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_JpvxsIXQEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_movie_scd",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - dim_writer",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - movie_writer_bridge",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_writer",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TQ0jMIXcEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_X9JgsINxEe6qxa4jBlczww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_4-rygINyEe6qxa4jBlczww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_actor",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_category",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_director",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_writer",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_YFTn8IUCEe6kYdlKJWQMUQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_4-rygINyEe6qxa4jBlczww",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_actor",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_category",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_director",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_writer",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bnYyAIaLEe6_7O9Y1y1ONg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - stg_movie_dtl",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gkAvoHHoEe667LZiV_T4Jw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "__pqW0HHZEe6eWeMcXWqt2Q",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_mU60UIXeEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - fct_movie",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ - movie_actor_bridge",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_qbBWwIXNEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_sDA7cIUhEe6v9bdXJ6QZ4Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_vh-0cIOnEe6qxa4jBlczww",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_H92iMITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_ANY2kITAEe6kYdlKJWQMUQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+} ]
