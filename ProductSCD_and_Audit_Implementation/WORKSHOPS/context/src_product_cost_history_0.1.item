@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_amy7MHQVEe6By_roopls-Q">
+    <contextParameter comment="" name="src_product_cost_history_File" prompt="src_product_cost_history_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="F:/DADABI/WorkshopSCD2/Source/Dev/ADW_ProductCost_History_forSCD.csv" xmi:id="_amy7MXQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_Encoding" prompt="src_product_cost_history_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_amy7MnQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_FieldSeparator" prompt="src_product_cost_history_FieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,&quot;" xmi:id="_amy7M3QVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_Header" prompt="src_product_cost_history_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_amy7NHQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_RowSeparator" prompt="src_product_cost_history_RowSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\n&quot;" xmi:id="_amy7NXQVEe6By_roopls-Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_amy7NnQVEe6By_roopls-Q">
+    <contextParameter comment="" name="src_product_cost_history_File" prompt="src_product_cost_history_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="F:/DADABI/WorkshopSCD2/Source/Prod/ADW_ProductCost_History_forSCD.csv" xmi:id="_amy7N3QVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_Encoding" prompt="src_product_cost_history_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_amy7OHQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_FieldSeparator" prompt="src_product_cost_history_FieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,&quot;" xmi:id="_amy7OXQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_Header" prompt="src_product_cost_history_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_amy7OnQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_RowSeparator" prompt="src_product_cost_history_RowSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\n&quot;" xmi:id="_amy7O3QVEe6By_roopls-Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="QA" xmi:id="_amy7PHQVEe6By_roopls-Q">
+    <contextParameter comment="" name="src_product_cost_history_File" prompt="src_product_cost_history_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="F:/DADABI/WorkshopSCD2/Source/Dev/ADW_ProductCost_History_forSCD.csv" xmi:id="_amy7PXQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_Encoding" prompt="src_product_cost_history_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_amy7PnQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_FieldSeparator" prompt="src_product_cost_history_FieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,&quot;" xmi:id="_amy7P3QVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_Header" prompt="src_product_cost_history_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_amy7QHQVEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_cost_history_RowSeparator" prompt="src_product_cost_history_RowSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\n&quot;" xmi:id="_amy7QXQVEe6By_roopls-Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5f181d3e-d010-4f42-b545-8ff57985ca92"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NOpbSUx/IlvGQsMYb+cbZY4eXc0yaNjFt0+BQ1QNJ4OtL/zDTDCs8Dh9scmgLre2ndIfQD31NOML&#13;
+OHscFS7c+w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d9a6202f-5a0d-4610-8643-f97945615bc3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aQkMmzlFKPdN7PEiad0wrURSaokqj9qweg0vaNvIxKj9tvdF891TUo/ivGoI//HuzDFEO5ZTuKoc&#13;
+MSOoAnY4zA==</DigestValue></Reference></SignedInfo><SignatureValue>Y8pFcSSIF+qU4RAc7Hu1xgpUcw4Zzzpcp6SKf5zQzIC8kSSxB27WswiuRV8SHiS+FQwMUqrSDutz&#13;
+hkN7meF4oWkm6MKpJLcg9sTrUuhJUUaGf8IkqdoIxUGA28zcv29Sh4I1rSOkJevu7mV/C8qJxXiS&#13;
+hT9hZ0k7Emduv3vZAKTvoRgfhGdnuvaGd2XK7q7MGIabDAGptB4Z/uWbf5Ificthykv+GftOCbJ1&#13;
+o6HHZ7dxCnMblI53eW1UJpOhvLn7VRDFrz58tAYf3RNLgpdeaftUERKbtsZfd/VLPqjGgFHSjUiA&#13;
+s1drxdSP2gSig4KWrloNKvELh5SOmUS+p3yYFw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d9a6202f-5a0d-4610-8643-f97945615bc3" Target="#_5f181d3e-d010-4f42-b545-8ff57985ca92"><Timestamp>2023-10-30 03:20:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

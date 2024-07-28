@@ -1,0 +1,156 @@
+{
+  "itemId" : "_4cNd4HWYEe6By_roopls-Q",
+  "contextList" : [ {
+    "contextName" : "prod",
+    "repoId" : "_6O7yIHQLEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_6P1xGHQLEe6By_roopls-Q",
+      "name" : "conn_mysql_AdditionalParams"
+    }, {
+      "id" : "_6P1xGXQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Port"
+    }, {
+      "id" : "_6P1xGnQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Login"
+    }, {
+      "id" : "_6P1xG3QLEe6By_roopls-Q",
+      "name" : "conn_mysql_Password"
+    }, {
+      "id" : "_6P1xHHQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Database"
+    }, {
+      "id" : "_6P1xHXQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Server"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_amWPQHQVEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_amy7O3QVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_RowSeparator"
+    }, {
+      "id" : "_amy7N3QVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_File"
+    }, {
+      "id" : "_amy7OHQVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_Encoding"
+    }, {
+      "id" : "_amy7OXQVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_FieldSeparator"
+    }, {
+      "id" : "_amy7OnQVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_Header"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_GCpPwHQXEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_GC8xx3QXEe6By_roopls-Q",
+      "name" : "src_product_price_history_Encoding"
+    }, {
+      "id" : "_GC8xyXQXEe6By_roopls-Q",
+      "name" : "src_product_price_history_RowSeparator"
+    }, {
+      "id" : "_GC8xxnQXEe6By_roopls-Q",
+      "name" : "src_product_price_history_File"
+    }, {
+      "id" : "_GC8xyHQXEe6By_roopls-Q",
+      "name" : "src_product_price_history_FieldSeparator"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_wMci8HWfEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_wNXI-3WfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_RowSeparator"
+    }, {
+      "id" : "_wNXI-nWfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_Header"
+    }, {
+      "id" : "_wNXI-HWfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_Encoding"
+    }, {
+      "id" : "_wNXI93WfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_File"
+    }, {
+      "id" : "_wNXI-XWfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_FieldSeparator"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_6O7yIHQLEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_6P1xEXQLEe6By_roopls-Q",
+      "name" : "conn_mysql_AdditionalParams"
+    }, {
+      "id" : "_6P1xEnQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Port"
+    }, {
+      "id" : "_6P1xE3QLEe6By_roopls-Q",
+      "name" : "conn_mysql_Login"
+    }, {
+      "id" : "_6P1xFHQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Password"
+    }, {
+      "id" : "_6P1xFXQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Database"
+    }, {
+      "id" : "_6P1xFnQLEe6By_roopls-Q",
+      "name" : "conn_mysql_Server"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_amWPQHQVEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_amy7NXQVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_RowSeparator"
+    }, {
+      "id" : "_amy7MXQVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_File"
+    }, {
+      "id" : "_amy7MnQVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_Encoding"
+    }, {
+      "id" : "_amy7M3QVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_FieldSeparator"
+    }, {
+      "id" : "_amy7NHQVEe6By_roopls-Q",
+      "name" : "src_product_cost_history_Header"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_GCpPwHQXEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_GC8xwnQXEe6By_roopls-Q",
+      "name" : "src_product_price_history_Encoding"
+    }, {
+      "id" : "_GC8xxHQXEe6By_roopls-Q",
+      "name" : "src_product_price_history_RowSeparator"
+    }, {
+      "id" : "_GC8xwXQXEe6By_roopls-Q",
+      "name" : "src_product_price_history_File"
+    }, {
+      "id" : "_GC8xw3QXEe6By_roopls-Q",
+      "name" : "src_product_price_history_FieldSeparator"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_wMci8HWfEe6By_roopls-Q",
+    "parameterList" : [ {
+      "id" : "_wNXI9XWfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_RowSeparator"
+    }, {
+      "id" : "_wNXI9HWfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_Header"
+    }, {
+      "id" : "_wNXI8nWfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_Encoding"
+    }, {
+      "id" : "_wNXI8XWfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_File"
+    }, {
+      "id" : "_wNXI83WfEe6By_roopls-Q",
+      "name" : "src_product_price_hist_FieldSeparator"
+    } ]
+  } ]
+}

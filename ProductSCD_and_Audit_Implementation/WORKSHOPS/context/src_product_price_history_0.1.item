@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_GC8xwHQXEe6By_roopls-Q">
+    <contextParameter comment="" name="src_product_price_history_File" prompt="src_product_price_history_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="F:/DADABI/WorkshopSCD2/Source/Dev/ADW_ProductPrice_History_forSCD.csv" xmi:id="_GC8xwXQXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_Encoding" prompt="src_product_price_history_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_GC8xwnQXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_FieldSeparator" prompt="src_product_price_history_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_GC8xw3QXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_RowSeparator" prompt="src_product_price_history_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_GC8xxHQXEe6By_roopls-Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_GC8xxXQXEe6By_roopls-Q">
+    <contextParameter comment="" name="src_product_price_history_File" prompt="src_product_price_history_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="F:/DADABI/WorkshopSCD2/Source/Dev/ADW_ProductPrice_History_forSCD.csv" xmi:id="_GC8xxnQXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_Encoding" prompt="src_product_price_history_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_GC8xx3QXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_FieldSeparator" prompt="src_product_price_history_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_GC8xyHQXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_RowSeparator" prompt="src_product_price_history_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_GC8xyXQXEe6By_roopls-Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="qa" xmi:id="_GC8xynQXEe6By_roopls-Q">
+    <contextParameter comment="" name="src_product_price_history_File" prompt="src_product_price_history_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="F:/DADABI/WorkshopSCD2/Source/Dev/ADW_ProductPrice_History_forSCD.csv" xmi:id="_GC8xy3QXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_Encoding" prompt="src_product_price_history_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_GC8xzHQXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_FieldSeparator" prompt="src_product_price_history_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;,&quot;" xmi:id="_GC8xzXQXEe6By_roopls-Q"/>
+    <contextParameter comment="" name="src_product_price_history_RowSeparator" prompt="src_product_price_history_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_GC8xznQXEe6By_roopls-Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bf99e4ff-cf84-43ef-9f40-a3a6fa5a895e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IhR94zd0WQP6SwJDGvlp210WeOHU4O2jtU8G+goLfU57yOvMXmxd/oremgi6f0Nvi1U9Vr2sTilu&#13;
+BdKEqdD85w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2aa197a5-758d-4956-87ce-9da99f582423"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uLCa0HN1Zb0ADXtbol1Slp3Mscl6mNdaNvGdIPLtleu+xrJXOkC/7Y7rdTZoFsWbxrzLxlCwscv2&#13;
+nhDZ2ARvtA==</DigestValue></Reference></SignedInfo><SignatureValue>j0K9L39WuhGw1xXAw/fm6o7PTUEQQMqJGCQSZaPMGXkMW6iX1FntPSEsfeFELuTwcCqowRLrGppc&#13;
+NQC8nuVdr/+XYWmc8fpXTXc/mgIKaBKILkO7MuxlHyOzqovTot4+Marfg959iE93v2vMrZB6uktK&#13;
+iBY2qMvY0Om8iWZl3glHzSKLdM9j1j7o3a2/8v3wpG/P5wZ65q5pfJ0+hW8fxgfmsh3wxatTds0X&#13;
+pQgayzyrED7Ki1uKXPZH34x0A9EklFOf65uLnw5NHFSWQTD69LTmOM6I2wMN6TUQsHZym6L/Ej52&#13;
+HKfjVCVHPaVR3v1aOFNwwFtUdFy2UiuQBGGtiQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2aa197a5-758d-4956-87ce-9da99f582423" Target="#_bf99e4ff-cf84-43ef-9f40-a3a6fa5a895e"><Timestamp>2023-10-26 15:48:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
