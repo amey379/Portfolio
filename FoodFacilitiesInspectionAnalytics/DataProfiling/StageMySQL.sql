@@ -1,0 +1,19 @@
+CREATE TABLE `stg_food_inspections` (
+  `BusinessId` varchar(9) DEFAULT NULL,
+  `Name` varchar(70) DEFAULT NULL,
+  `Address` varchar(32) DEFAULT NULL,
+  `City` varchar(17) DEFAULT NULL,
+  `State` varchar(2) DEFAULT NULL,
+  `ZipCode` varchar(10) DEFAULT NULL,
+  `PhoneNumber` varchar(12) DEFAULT NULL,
+  `InspectionId` varchar(9) DEFAULT NULL,
+  `Date` datetime DEFAULT NULL,
+  `InspectionType` varchar(9) DEFAULT NULL,
+  `ViolationCodes` varchar(109) DEFAULT NULL,
+  `ViolationDescriptions` varchar(2000) DEFAULT NULL,
+  `Latitude` double(20,3) DEFAULT NULL,
+  `Longitude` double(20,3) DEFAULT NULL,
+  `DI_CreatedDate` datetime DEFAULT NULL,
+  `DI_WorkflowFileName` varchar(1000) DEFAULT NULL,
+  `DI_Workflow_ProcessID` varchar(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
