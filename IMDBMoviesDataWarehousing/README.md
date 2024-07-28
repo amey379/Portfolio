@@ -2,14 +2,7 @@
 
 ## Problem Statement
 
-This project involves the integration of data from various sources, including MySQL, TSV files, and JSON files related to revenue and SCD2 data. The goal is to implement ETL processes using Talend, create a Movie Titles Dimension table, and develop Power BI and Tableau dashboards.
-
-## Team Members
-
-1. Amey Parange
-2. Asawari Kadam
-3. Ashwini Khedkar
-4. Neha Bhutkar
+This project involves the integration of data from various sources, including MySQL, TSV files, and JSON files related to revenue and SCD2 data. The goal is to implement ETL processes for staging layer, curation layer, intergration layer, and data mart using Talend, and develop Power BI and Tableau dashboards.
 
 ## Skills:
 - Data Profiling
