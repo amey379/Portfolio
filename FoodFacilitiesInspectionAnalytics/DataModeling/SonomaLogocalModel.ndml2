@@ -1,0 +1,974 @@
+{
+  "paper": {
+    "name": "A4",
+    "leftMargin": 0.5,
+    "rightMargin": 0.5,
+    "topMargin": 0.5,
+    "bottomMargin": 0.5,
+    "isPortriat": true
+  },
+  "modelVersion": 2.01,
+  "defaultSchema": "default",
+  "server": {
+    "objectType": "Server_LOGICAL",
+    "name": "Default",
+    "schemas": [
+      {
+        "objectType": "Schema_LOGICAL",
+        "name": "default",
+        "tables": [
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "default.Dim_Date",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DateSK",
+                "type": "CHARACTER VARYING",
+                "length": 8,
+                "decimals": -2147483648,
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DateSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Date",
+                "type": "DATE",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Date"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Year",
+                "type": "CHARACTER VARYING",
+                "length": 4,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Year"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Month",
+                "type": "CHARACTER VARYING",
+                "length": 9,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Month"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Quarter",
+                "type": "CHARACTER VARYING",
+                "length": 2,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Quarter"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Day",
+                "type": "CHARACTER VARYING",
+                "length": 9,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Day"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreatedDate",
+                "type": "TIMESTAMP",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreatedDate"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName",
+                "type": "CHARACTER VARYING",
+                "length": 255,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_Workflow_ProcessID",
+                "type": "CHARACTER VARYING",
+                "length": 20,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_Workflow_ProcessID"
+              }
+            ],
+            "foreignKeys": [],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "DateSK"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "default.Dim_Business",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "BusinessSK",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "BusinessSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "BusinessId",
+                "type": "CHARACTER VARYING",
+                "length": 9,
+                "decimals": -2147483648,
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "BusinessId"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Name",
+                "type": "CHARACTER VARYING",
+                "length": 70,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Name"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Address",
+                "type": "CHARACTER VARYING",
+                "length": 32,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Address"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "City",
+                "type": "CHARACTER VARYING",
+                "length": 17,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "City"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "State",
+                "type": "CHARACTER VARYING",
+                "length": 2,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "State"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Zip",
+                "type": "CHARACTER VARYING",
+                "length": 10,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Zip"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Longitude",
+                "type": "DOUBLE PRECISION",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Longitude"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Latitude",
+                "type": "DOUBLE PRECISION",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Latitude"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "PhoneNumber",
+                "type": "CHARACTER VARYING",
+                "length": 12,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "PhoneNumber"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreatedDate",
+                "type": "TIMESTAMP",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreatedDate"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName",
+                "type": "CHARACTER VARYING",
+                "length": 255,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_Workflow_ProcessID",
+                "type": "CHARACTER VARYING",
+                "length": 10,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_Workflow_ProcessID"
+              }
+            ],
+            "foreignKeys": [],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "BusinessSK"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "default.Fct_Violation",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ViolationSK",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ViolationSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "InspectionSK",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "InspectionSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ViolationCodeSK",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ViolationCodeSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ViolationCategory",
+                "type": "CHARACTER VARYING",
+                "length": 5,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ViolationCategory"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "CategoryScore",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "CategoryScore"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreatedDate",
+                "type": "TIMESTAMP",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreatedDate"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName",
+                "type": "CHARACTER VARYING",
+                "length": 255,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_Workflow_ProcessID",
+                "type": "CHARACTER VARYING",
+                "length": 20,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_Workflow_ProcessID"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "ViolationCodeSK",
+                "fields": [
+                  "ViolationCodeSK"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "default.Dim_ViolationCodes",
+                "referencedFields": [
+                  "ViolationCodeSK"
+                ],
+                "sourceCardinality": "OneOrManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "InspectionSK",
+                "fields": [
+                  "InspectionSK"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "default.Fct_Inspection",
+                "referencedFields": [
+                  "InspectionSK"
+                ],
+                "sourceCardinality": "ZeroOrManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "ViolationSK"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "default.Dim_ViolationCodes",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ViolationCodeSK",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ViolationCodeSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ViolationCode",
+                "type": "CHARACTER VARYING",
+                "length": 4,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ViolationCode"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ViolationDesc",
+                "type": "CHARACTER VARYING",
+                "length": 255,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ViolationDesc"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreatedDate",
+                "type": "TIMESTAMP",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreatedDate"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName",
+                "type": "CHARACTER VARYING",
+                "length": 255,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_Workflow_ProcessID",
+                "type": "CHARACTER VARYING",
+                "length": 20,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_Workflow_ProcessID"
+              }
+            ],
+            "foreignKeys": [],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "ViolationCodeSK"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "default.Fct_Inspection",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "InspectionSK",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "InspectionSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "BusinessSK",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": false,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "BusinessSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DateSK",
+                "type": "CHARACTER VARYING",
+                "length": 8,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DateSK"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "InspectionID",
+                "type": "CHARACTER VARYING",
+                "length": 9,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "InspectionID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "InspectionType",
+                "type": "CHARACTER VARYING",
+                "length": 9,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "InspectionType"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ViolationScore",
+                "type": "INTEGER",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ViolationScore"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "InspectionResult",
+                "type": "CHARACTER VARYING",
+                "length": 4,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "InspectionResult"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreatedDate",
+                "type": "TIMESTAMP",
+                "length": -2147483648,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreatedDate"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName",
+                "type": "CHARACTER VARYING",
+                "length": 255,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_Workflow_ProcessID",
+                "type": "CHARACTER VARYING",
+                "length": 20,
+                "decimals": -2147483648,
+                "isNullable": true,
+                "defaultType": "Others",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_Workflow_ProcessID"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "BusinessSK",
+                "fields": [
+                  "BusinessSK"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "default.Dim_Business",
+                "referencedFields": [
+                  "BusinessSK"
+                ],
+                "sourceCardinality": "ZeroOrManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              },
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "DateSK",
+                "fields": [
+                  "DateSK"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "default.Dim_Date",
+                "referencedFields": [
+                  "DateSK"
+                ],
+                "sourceCardinality": "ZeroOrManyRelationship",
+                "targetCardinality": "OneAndOnlyOneRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "InspectionSK"
+              ],
+              "oldName": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "name": "Diagram 1",
+      "paperWidth": 1,
+      "paperHeight": 1,
+      "tableFont": "Arial Unicode MS",
+      "tableFontSize": 14,
+      "isBalckWhite": false,
+      "showDBSchemaName": false,
+      "showViewRelations": true,
+      "notation": "default",
+      "showFieldComment": false,
+      "showTableComment": false,
+      "shapes": [
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "default.Dim_Business",
+          "x": 32,
+          "y": 254,
+          "width": 200,
+          "height": 304,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "default.Dim_Date",
+          "x": 343,
+          "y": 587,
+          "width": 236,
+          "height": 240,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "default.Fct_Inspection",
+          "x": 347,
+          "y": 277,
+          "width": 223,
+          "height": 275,
+          "isBold": false,
+          "titleColor": {
+            "r": 253,
+            "g": 181,
+            "b": 12,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "default.Fct_Violation",
+          "x": 654,
+          "y": 295,
+          "width": 205,
+          "height": 206,
+          "isBold": false,
+          "titleColor": {
+            "r": 253,
+            "g": 181,
+            "b": 12,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "default.Dim_ViolationCodes",
+          "x": 655,
+          "y": 594,
+          "width": 216,
+          "height": 219,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        }
+      ],
+      "layers": [],
+      "relations": [
+        {
+          "name": "BusinessSK",
+          "sourceTableName": "default.Fct_Inspection",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 332,
+              "y": 402
+            },
+            {
+              "x": 247,
+              "y": 402
+            }
+          ],
+          "label": {
+            "x": 259,
+            "y": 363,
+            "width": 83,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 204,
+              "g": 204,
+              "b": 204,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "DateSK",
+          "sourceTableName": "default.Fct_Inspection",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 455,
+              "y": 567
+            },
+            {
+              "x": 455,
+              "y": 572
+            }
+          ],
+          "label": {
+            "x": 401,
+            "y": 516,
+            "width": 56,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 204,
+              "g": 204,
+              "b": 204,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "ViolationCodeSK",
+          "sourceTableName": "default.Fct_Violation",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 761,
+              "y": 516
+            },
+            {
+              "x": 761,
+              "y": 579
+            }
+          ],
+          "label": {
+            "x": 769,
+            "y": 475,
+            "width": 114,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 204,
+              "g": 204,
+              "b": 204,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "InspectionSK",
+          "sourceTableName": "default.Fct_Violation",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 639,
+              "y": 398
+            },
+            {
+              "x": 585,
+              "y": 398
+            }
+          ],
+          "label": {
+            "x": 558,
+            "y": 359,
+            "width": 91,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 204,
+              "g": 204,
+              "b": 204,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        }
+      ],
+      "viewRelations": []
+    }
+  ]
+}
