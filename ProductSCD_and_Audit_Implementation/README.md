@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-This project involves implementing Slowly Changing Dimensions type 1, 2 and 3 for movies, actors and directors data from json files. Futher implement audit columns and generate logs for all processes.
+This project involves implementing Slowly Changing Dimensions type 1, 2 and 3 for products history from csv files. Futher implement audit columns and generate logs for all processes.
 
 ## Skills:
 - Data Profiling
