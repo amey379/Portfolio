@@ -14,7 +14,7 @@ This project involves the integration of data from various sources, including My
 - Data Visualization in Power BI and Tableau
 
 ## Data Model
-![image](https://github.com/user-attachments/assets/e5eb0324-dcda-4aa0-8d00-a0a6b47abc65)
+![DimensionalModel (1)](https://github.com/user-attachments/assets/a4eeab55-5d21-42e6-b9f9-d8c02e7e1d69)
 
 ## Updated Model: 
 1.	Reduced dependency
@@ -22,11 +22,6 @@ This project involves the integration of data from various sources, including My
 3.	Keys Consistency
 4.	Improved Performance
 
-![image](https://github.com/user-attachments/assets/c81c0197-5abe-42af-a74a-ac91c31ea57b)
+![MovieAnalysis (1)](https://github.com/user-attachments/assets/c4f6cefd-a54c-4bfb-8f85-7e0f4a1e913d)
 
-
-### Dashboard.
-![image](https://github.com/amey379/Cinematic-Insights-Analysis-of-IMDb-Movie-Trends/assets/29867986/81fd3b52-ac03-4d6d-947e-6d4e6b2749d6)
-![image](https://github.com/amey379/Cinematic-Insights-Analysis-of-IMDb-Movie-Trends/assets/29867986/b0716a82-3aab-4918-aebd-3bc7755cabb9)
-![image](https://github.com/amey379/Cinematic-Insights-Analysis-of-IMDb-Movie-Trends/assets/29867986/b787e222-f66b-4f9b-af05-016dba0ebe0a)
 
