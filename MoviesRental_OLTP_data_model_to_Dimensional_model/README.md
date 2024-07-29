@@ -2,31 +2,16 @@
 
 ## Problem Statement
 
-This project involves the integration of data from various sources, including MySQL, TSV files, and JSON files related to revenue and SCD2 data. The goal is to implement ETL processes for staging layer, curation layer, intergration layer, and data mart using Talend, and develop Power BI and Tableau dashboards.
+This project involves understanding Movie Rentals OLTP model and implement analytical solution to answer financial and rental business questions by designing a robust dimensional model.
 
 ## Skills:
 - Data Profiling
-- Data Warehousing
-- Talend for ETL development
-- MySQL
 - ER Studio
 - Dimensional Modeling
-- Data Visualization in Power BI and Tableau
+- Conformed Dimensions
+
+## Movie Rentals OLTP data model
+![Source_Model](https://github.com/user-attachments/assets/c0cfb74d-343e-4c90-b13a-1fc96157d9bf)
 
 ## Data Model
-![image](https://github.com/user-attachments/assets/e5eb0324-dcda-4aa0-8d00-a0a6b47abc65)
-
-## Updated Model: 
-1.	Reduced dependency
-2.	Implement Conformed Dimensions
-3.	Keys Consistency
-4.	Improved Performance
-
-![image](https://github.com/user-attachments/assets/c81c0197-5abe-42af-a74a-ac91c31ea57b)
-
-
-### Dashboard.
-![image](https://github.com/amey379/Cinematic-Insights-Analysis-of-IMDb-Movie-Trends/assets/29867986/81fd3b52-ac03-4d6d-947e-6d4e6b2749d6)
-![image](https://github.com/amey379/Cinematic-Insights-Analysis-of-IMDb-Movie-Trends/assets/29867986/b0716a82-3aab-4918-aebd-3bc7755cabb9)
-![image](https://github.com/amey379/Cinematic-Insights-Analysis-of-IMDb-Movie-Trends/assets/29867986/b787e222-f66b-4f9b-af05-016dba0ebe0a)
-
+![two_fact_solution](https://github.com/user-attachments/assets/377c9e1e-1a55-44a5-ac1b-a5e7f915f73e)
